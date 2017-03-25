@@ -1,0 +1,4 @@
+<div>
+  <div data-hook="container-search-input"></div>
+  <div data-hook="container-list-view"></div>
+</div>

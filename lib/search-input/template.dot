@@ -1,0 +1,4 @@
+<form data-hook='form'>
+  <input type='text' placeholder='Search movies ...' data-hook='input'>
+  <button type='submit'>Search</button>
+</form>

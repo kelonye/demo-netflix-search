@@ -1,0 +1,21 @@
+<div class='list-view'>
+  {{? it.isSearching }}
+
+  <div>Searching movies matching "{{=it.searchTerm}}" ...</div>
+
+  {{??}}
+
+    {{? it.searchError }}{{=it.searchError}}{{?}}
+
+    <ul>
+      {{~it.movies :movie}}
+      <li>
+        /*<div><img src="{{=movie.poster}}"></div>*/
+        <div>{{=movie.show_title}}</div>
+        <div><em>{{=movie.release_year}}</small></em></div>
+        <div><p>{{=movie.summary}}</p></div>
+      {{~}}
+    </ul>
+
+  {{?}}
+</div>
