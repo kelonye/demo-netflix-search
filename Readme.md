@@ -2,7 +2,7 @@
 
 - Demo shows usage of [ampersand views](https://ampersandjs.com) + [redux](http://redux.js.org)
 - Data is provided by [netflixroulette.net](http://netflixroulette.net)
-- View demo [here](http://kelonye.com/demo-netflix-search/)
+- View demo [here](http://kelonye.com/demo-netflix-search/dist/)
 
 ### Getting started
 
