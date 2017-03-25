@@ -8760,7 +8760,7 @@ function search(searchTerm = ''){
       } else {
         __WEBPACK_IMPORTED_MODULE_0_redux_store__["a" /* default */].dispatch({
           type: 'SUCCEED_SEARCH',
-          movies: [{ name: res.show_title, year: res.release_year }],
+          movies: [res],
         });
       }
     });
@@ -23219,7 +23219,7 @@ var out='<div> <div data-hook="container-search-input"></div> <div data-hook="co
 
 module.exports = function anonymous(it
 /**/) {
-var out='<div> ';if(it.isSearching){out+=' <p>Searching movies matching "'+(it.searchTerm)+'" ...</p> ';}else{out+=' ';if(it.searchError){out+=''+(it.searchError);}out+=' <ul> ';var arr1=it.movies;if(arr1){var movie,i1=-1,l1=arr1.length-1;while(i1<l1){movie=arr1[i1+=1];out+=' <li>'+(movie.name)+' <small>'+(movie.year)+'</small></li> ';} } out+=' </ul> ';}out+='</div>';return out;
+var out='<div class=\'list-view\'> ';if(it.isSearching){out+=' <div>Searching movies matching "'+(it.searchTerm)+'" ...</div> ';}else{out+=' ';if(it.searchError){out+=''+(it.searchError);}out+=' <ul> ';var arr1=it.movies;if(arr1){var movie,i1=-1,l1=arr1.length-1;while(i1<l1){movie=arr1[i1+=1];out+=' <li>  <div>'+(movie.show_title)+'</div> <div><em>'+(movie.release_year)+'</small></em></div> <div><p>'+(movie.summary)+'</p></div> ';} } out+=' </ul> ';}out+='</div>';return out;
 }
 
 /***/ }),
