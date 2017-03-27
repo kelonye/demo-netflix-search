@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "ampersand": "^3.0.6"
+    "ampersand-collection": "^2.0.0",
+    "ampersand-model": "^8.0.0",
+    "ampersand-view": "^10.0.1",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
     "css-loader": "^0.27.3",

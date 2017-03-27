@@ -1,0 +1,6 @@
+<div>
+  <div><img data-hook='poster'></div>
+  <div data-hook='show_title'></div>
+  <div><em data-hook='release_year'></small></em></div>
+  <div><p data-hook='summary'></p></div>
+</div>
